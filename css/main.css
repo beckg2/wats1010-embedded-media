@@ -12,11 +12,24 @@ body {
   margin: 0;
 }
 h1 {
-  background: green;
+  background: orange;
   display: none;
 }
+header p {
+  font-size: 2em;
+  padding-top: 0;
+  text-align: center;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: 75px;
+  min-height: 10em;
+  width: 90%;
+  color: white;
+}
 h2 {
-  background: red;
+  text-align: center;
+  color: green;
 }
 header {
   min-height: 400px;
@@ -25,13 +38,19 @@ header {
   background-position: center center;
   background-size: cover;
 }
-nav ul li { 
-  display: inline; 
-  border-style: solid; 
-  background-color: lightblue; 
+.main-nav li { 
+  display: inline-block;
+  position: relative;
+  list-style-type: none;
+  padding-right: 20px; 
 } 
-nav ul li:hover { 
-  background-color: yellow; 
+.main-nav a:hover { 
+  color: yellow; 
+}
+.main-nav a {
+    text-decoration: none;
+    color: green;
+    text-transform: uppercase;
 }
 #social {
   position: fixed;
@@ -55,6 +74,147 @@ nav ul li:hover {
   height: 100px;
   width: 100px;
 }
+#watch {
+  position: relative;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 20px;
+  padding-bottom: 0;
+  color: green;
+  text-align: center;
+}
+#watch h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: green;
+}
+#watch h3 {
+  font-size: 1.5em;
+}
+#watch p {
+  font-size: .75em;
+}
+#watch a {
+  text-decoration: none;
+  color: white;
+  font-size: .75em;
+  padding: 20px;
+  margin: 10px; 
+}
+#watch a:hover {
+  background-color: white;
+  text-decoration:none;
+  color: coral;
+}
+#watch video {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+#listen {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: -5px;
+  color: white;
+  text-align: center;
+}
+#listen h2 {
+  font-size: 1.5em;
+  color: green;
+}
+#listen p {
+  font-size: .75em;
+}
+#listen a {
+  text-decoration: none;
+  color: white;
+  font-size: .75em;
+  padding: 20px;
+}
+#listen a:hover {
+  background-color: white;
+  text-decoration:none;
+  color: coral;
+}
+.download-button {
+  background-color: gray;
+  opacity: .8;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  margin: 5px auto;
+  width: 100px;
+  vertical-align: middle;
+  display: inline-block;
+}
+#about {
+  padding: 200px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  color: green;
+}
+#about h2 {
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  font-size: 2em;
+}
+#about p {
+  font-size: 1.5em;
+}
+#about p a {
+  color: green;
+}
+#about a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+#about img {
+  margin:0 auto; 
+  text-align:center;
+  display:table;
+  padding: 0;
+}
+.weybec-people {
+  margin:0 auto; 
+  text-align:center;
+  display:table;
+  padding: 0;
+}
+.weybec-people img {
+  max-width: 250px;
+}
+.weybec-people li {
+  display: inline-block;
+  position: relative;
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: .5;
+} 
 footer {
-  background: pink;
+    background-color: grey;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+footer p {
+  text-align: center;
+  color: white;
+  bottom: 0;
+  font-size: small;
+}
+footer p a {
+  color: white;
+}
+footer p a:hover {
+  color: yellow;
+}
+footer .main-nav {
+    margin: 0 auto;
+    text-align: center;
+    display: table;
+    padding: 0;
+    text-transform: uppercase;
 }
